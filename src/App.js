@@ -1,9 +1,9 @@
 import './App.css';
 import DataGrid from 'react-data-grid';
 import data from './data.js';
-import { VictoryChart, VictoryBar, VictoryTheme } from 'victory';
+import { VictoryChart, VictoryBar, VictoryTheme, VictoryPie, VictoryLine } from 'victory';
 import { generateColumns } from './data-utils';
-import { totalInvoicesPerState } from './data-utils';
+import { totalInvoicesPerState, totalInvoicesByProjectType } from './data-utils';
 
 
 function App() {
@@ -21,18 +21,28 @@ function App() {
   
   const rows = data;
 
-  const chartData = [
+  const chartDataTest = [
     { quarter: 1, earnings: 13000 },
     { quarter: 2, earnings: 16500 },
     { quarter: 3, earnings: 14250 },
     { quarter: 4, earnings: 19000 },
   ];
 
+  const pieDataTest = [
+    { x: '1', y: 13000 },
+    { x: '2', y: 16500 },
+    { x: '3', y: 14250 },
+    { x: '4', y: 19000 },
+  ];
+
   //we want to see Total invoice or profit per state
   //we want to see total invoices per kind of work
 
-  const temp = totalInvoicesPerState(data);
-  console.log(temp);
+  const totalPerStateData = totalInvoicesPerState(data);
+  // console.log(totalPerStateData);
+
+  const totalPerProjectType = totalInvoicesByProjectType(data);
+  console.log(totalPerProjectType);
 
   return (
     <div className="App">
@@ -49,9 +59,35 @@ function App() {
         >
           <VictoryBar
             // style={{ data: { fill: '#c43a31' } }}
-            data={data}
-            x='client_name'
-            y='invoice_amount'
+            data={totalPerStateData}
+            x='state'
+            y='total'
+          />
+        </VictoryChart>
+      </div>
+      <div>
+        <VictoryPie 
+          data={totalPerProjectType}
+          colorScale={['tomato', 'orange', 'gold', 'cyan', 'navy']}
+          // categories={{ x: ['dogs', 'cats', 'mice'] }}
+        />
+      </div>
+      <div>
+        <VictoryChart
+          theme={VictoryTheme.material}
+        >
+          <VictoryLine
+            style={{
+              data: { stroke: '#c43a31' },
+              parent: { border: '1px solid #ccc' }
+            }}
+            data={[
+              { x: 1, y: 2 },
+              { x: 2, y: 3 },
+              { x: 3, y: 5 },
+              { x: 4, y: 4 },
+              { x: 5, y: 7 }
+            ]}
           />
         </VictoryChart>
       </div>
