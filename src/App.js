@@ -21,19 +21,19 @@ function App() {
   
   const rows = data;
 
-  const chartDataTest = [
-    { quarter: 1, earnings: 13000 },
-    { quarter: 2, earnings: 16500 },
-    { quarter: 3, earnings: 14250 },
-    { quarter: 4, earnings: 19000 },
-  ];
+  // const chartDataTest = [
+  //   { quarter: 1, earnings: 13000 },
+  //   { quarter: 2, earnings: 16500 },
+  //   { quarter: 3, earnings: 14250 },
+  //   { quarter: 4, earnings: 19000 },
+  // ];
 
-  const pieDataTest = [
-    { x: '1', y: 13000 },
-    { x: '2', y: 16500 },
-    { x: '3', y: 14250 },
-    { x: '4', y: 19000 },
-  ];
+  // const pieDataTest = [
+  //   { x: '1', y: 13000 },
+  //   { x: '2', y: 16500 },
+  //   { x: '3', y: 14250 },
+  //   { x: '4', y: 19000 },
+  // ];
 
   //we want to see Total invoice or profit per state
   //we want to see total invoices per kind of work
