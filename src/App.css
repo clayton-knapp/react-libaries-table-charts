@@ -47,5 +47,16 @@
 .chart {
   margin: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* width: 500px; */
+}
+
+
+.line {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
   /* width: 500px; */
 }

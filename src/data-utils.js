@@ -112,7 +112,9 @@ export function totalInvoicesPerMonth(data) {
       acc[month] = customer.invoice_amount;
     }
     return acc;
-  }, []);
+  }, {});
+
+  // console.log('firstthing', thing);
 
   const newThing = Object.entries(thing).map(entry => 
     // return {
@@ -120,8 +122,10 @@ export function totalInvoicesPerMonth(data) {
     // };
   );
 
-  
-  return newThing;
+  // console.log(newThing);
+  const finalThing = [newThing[8], newThing[7], newThing[1], newThing[5], newThing[10], newThing[2], newThing[6], newThing[11], newThing[3], newThing[0], newThing[4], newThing[9]];
+
+  return finalThing;
 
 
   //what do i need it to look like?
