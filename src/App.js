@@ -114,7 +114,7 @@ function App() {
             }
           }}
           padding={{ left: 100, right: 100 }}
-          labelPlacement={({ index }) => 'parallel'}
+          labelPlacement={'parallel'}
 
         />
       </div>
