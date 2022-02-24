@@ -1,803 +1,901 @@
-export default [
-  {
-    'id': 1,
-    'client_name': 'Iseabal Touhig',
-    'invoice_amount': 9976,
-    'project_expense': 10527,
-    'date': '09/26/2021',
-    'state': 'California',
-    'kind_of_project': 'Marlite Panels (FED)'
-  }, {
-    'id': 2,
-    'client_name': 'Gaultiero Gillinghams',
-    'invoice_amount': 15552,
-    'project_expense': 11148,
-    'date': '12/15/2021',
-    'state': 'California',
-    'kind_of_project': 'Casework'
-  }, {
-    'id': 3,
-    'client_name': 'Shayna Bowie',
-    'invoice_amount': 19466,
-    'project_expense': 9249,
-    'date': '01/19/2021',
-    'state': 'Nevada',
-    'kind_of_project': 'Site Furnishings'
-  }, {
-    'id': 4,
-    'client_name': 'Kerwin Demsey',
-    'invoice_amount': 11293,
-    'project_expense': 5010,
-    'date': '02/26/2021',
-    'state': 'Nevada',
-    'kind_of_project': 'Overhead Doors'
-  }, {
-    'id': 5,
-    'client_name': 'Laraine von Hagt',
-    'invoice_amount': 11382,
-    'project_expense': 3756,
-    'date': '02/15/2021',
-    'state': 'California',
-    'kind_of_project': 'Painting & Vinyl Wall Covering'
-  }, {
-    'id': 6,
-    'client_name': 'Peta Barks',
-    'invoice_amount': 15575,
-    'project_expense': 9271,
-    'date': '10/01/2021',
-    'state': 'Utah',
-    'kind_of_project': 'Temp Fencing, Decorative Fencing and Gates'
-  }, {
-    'id': 7,
-    'client_name': 'Jo Voas',
-    'invoice_amount': 11151,
-    'project_expense': 6113,
-    'date': '07/25/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Wall Protection'
-  }, {
-    'id': 8,
-    'client_name': 'Emilio Leupoldt',
-    'invoice_amount': 11639,
-    'project_expense': 13305,
-    'date': '10/19/2021',
-    'state': 'Oregon',
-    'kind_of_project': 'Elevator'
-  }, {
-    'id': 9,
-    'client_name': 'Eugen Skeldon',
-    'invoice_amount': 18890,
-    'project_expense': 9425,
-    'date': '10/21/2021',
-    'state': 'California',
-    'kind_of_project': 'Construction Clean and Final Clean'
-  }, {
-    'id': 10,
-    'client_name': 'Phylis Atlee',
-    'invoice_amount': 15807,
-    'project_expense': 11250,
-    'date': '01/25/2021',
-    'state': 'California',
-    'kind_of_project': 'Casework'
-  }, {
-    'id': 11,
-    'client_name': 'Shae Badham',
-    'invoice_amount': 7054,
-    'project_expense': 9042,
-    'date': '08/04/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Site Furnishings'
-  }, {
-    'id': 12,
-    'client_name': 'Melisande Widdows',
-    'invoice_amount': 17639,
-    'project_expense': 7605,
-    'date': '09/08/2021',
-    'state': 'California',
-    'kind_of_project': 'EIFS'
-  }, {
-    'id': 13,
-    'client_name': 'Ruby Stoneham',
-    'invoice_amount': 15106,
-    'project_expense': 6663,
-    'date': '07/15/2021',
-    'state': 'California',
-    'kind_of_project': 'Wall Protection'
-  }, {
-    'id': 14,
-    'client_name': 'Godfree Gerdts',
-    'invoice_amount': 5417,
-    'project_expense': 10590,
-    'date': '10/15/2021',
-    'state': 'California',
-    'kind_of_project': 'Painting & Vinyl Wall Covering'
-  }, {
-    'id': 15,
-    'client_name': 'Virgilio Arrow',
-    'invoice_amount': 6222,
-    'project_expense': 10229,
-    'date': '12/25/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Overhead Doors'
-  }, {
-    'id': 16,
-    'client_name': 'Ardelis Springtorpe',
-    'invoice_amount': 7472,
-    'project_expense': 11288,
-    'date': '08/22/2021',
-    'state': 'California',
-    'kind_of_project': 'Granite Surfaces'
-  }, {
-    'id': 17,
-    'client_name': 'Forest Georges',
-    'invoice_amount': 12499,
-    'project_expense': 7621,
-    'date': '12/14/2021',
-    'state': 'Utah',
-    'kind_of_project': 'Overhead Doors'
-  }, {
-    'id': 18,
-    'client_name': 'Torie Sedgefield',
-    'invoice_amount': 13004,
-    'project_expense': 8310,
-    'date': '06/08/2021',
-    'state': 'California',
-    'kind_of_project': 'EIFS'
-  }, {
-    'id': 19,
-    'client_name': 'Rufus Maryon',
-    'invoice_amount': 16581,
-    'project_expense': 4483,
-    'date': '11/14/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Structural & Misc Steel Erection'
-  }, {
-    'id': 20,
-    'client_name': 'Lula Spry',
-    'invoice_amount': 7372,
-    'project_expense': 5095,
-    'date': '08/10/2021',
-    'state': 'California',
-    'kind_of_project': 'Temp Fencing, Decorative Fencing and Gates'
-  }, {
-    'id': 21,
-    'client_name': 'Gaultiero Samter',
-    'invoice_amount': 10233,
-    'project_expense': 8104,
-    'date': '03/22/2021',
-    'state': 'California',
-    'kind_of_project': 'Drywall & Acoustical (MOB)'
-  }, {
-    'id': 22,
-    'client_name': 'Benedikta Dourin',
-    'invoice_amount': 15839,
-    'project_expense': 13357,
-    'date': '09/12/2021',
-    'state': 'California',
-    'kind_of_project': 'Drilled Shafts'
-  }, {
-    'id': 23,
-    'client_name': 'Brant Langeley',
-    'invoice_amount': 7029,
-    'project_expense': 4232,
-    'date': '02/08/2021',
-    'state': 'Oregon',
-    'kind_of_project': 'Soft Flooring and Base'
-  }, {
-    'id': 24,
-    'client_name': 'Casie Torfin',
-    'invoice_amount': 10670,
-    'project_expense': 3630,
-    'date': '08/03/2021',
-    'state': 'California',
-    'kind_of_project': 'Structural and Misc Steel (Fabrication)'
-  }, {
-    'id': 25,
-    'client_name': 'Priscilla Quilleash',
-    'invoice_amount': 14600,
-    'project_expense': 11287,
-    'date': '01/25/2021',
-    'state': 'California',
-    'kind_of_project': 'Electrical and Fire Alarm'
-  }, {
-    'id': 26,
-    'client_name': 'Anneliese Pudsey',
-    'invoice_amount': 16337,
-    'project_expense': 12808,
-    'date': '09/30/2021',
-    'state': 'Nevada',
-    'kind_of_project': 'Overhead Doors'
-  }, {
-    'id': 27,
-    'client_name': 'Eve Escreet',
-    'invoice_amount': 19181,
-    'project_expense': 2907,
-    'date': '01/24/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Waterproofing & Caulking'
-  }, {
-    'id': 28,
-    'client_name': 'Fernande Hambatch',
-    'invoice_amount': 14241,
-    'project_expense': 9450,
-    'date': '01/30/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Granite Surfaces'
-  }, {
-    'id': 29,
-    'client_name': 'Denney Kubek',
-    'invoice_amount': 18153,
-    'project_expense': 8675,
-    'date': '07/31/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Wall Protection'
-  }, {
-    'id': 30,
-    'client_name': 'Pepillo Bromfield',
-    'invoice_amount': 15196,
-    'project_expense': 6531,
-    'date': '08/17/2021',
-    'state': 'California',
-    'kind_of_project': 'Wall Protection'
-  }, {
-    'id': 31,
-    'client_name': 'Francois Jodrellec',
-    'invoice_amount': 8195,
-    'project_expense': 11509,
-    'date': '03/30/2021',
-    'state': 'California',
-    'kind_of_project': 'Roofing (Asphalt)'
-  }, {
-    'id': 32,
-    'client_name': 'Ardyth Aristide',
-    'invoice_amount': 8671,
-    'project_expense': 6188,
-    'date': '04/16/2021',
-    'state': 'California',
-    'kind_of_project': 'EIFS'
-  }, {
-    'id': 33,
-    'client_name': 'Sonny MacAlister',
-    'invoice_amount': 18536,
-    'project_expense': 10061,
-    'date': '10/20/2021',
-    'state': 'California',
-    'kind_of_project': 'Drywall & Acoustical (MOB)'
-  }, {
-    'id': 34,
-    'client_name': 'Viole Courson',
-    'invoice_amount': 17373,
-    'project_expense': 12235,
-    'date': '08/03/2021',
-    'state': 'Nevada',
-    'kind_of_project': 'Structural and Misc Steel (Fabrication)'
-  }, {
-    'id': 35,
-    'client_name': 'Licha Sokell',
-    'invoice_amount': 12287,
-    'project_expense': 10504,
-    'date': '09/09/2021',
-    'state': 'Oregon',
-    'kind_of_project': 'Site Furnishings'
-  }, {
-    'id': 36,
-    'client_name': 'Conrado Mohring',
-    'invoice_amount': 15558,
-    'project_expense': 3619,
-    'date': '05/31/2021',
-    'state': 'Utah',
-    'kind_of_project': 'Fire Protection'
-  }, {
-    'id': 37,
-    'client_name': 'Niki Nannizzi',
-    'invoice_amount': 10685,
-    'project_expense': 4931,
-    'date': '07/10/2021',
-    'state': 'California',
-    'kind_of_project': 'Casework'
-  }, {
-    'id': 38,
-    'client_name': 'Dawna Strong',
-    'invoice_amount': 14870,
-    'project_expense': 13172,
-    'date': '06/19/2021',
-    'state': 'Utah',
-    'kind_of_project': 'Masonry'
-  }, {
-    'id': 39,
-    'client_name': 'Olivie Timlin',
-    'invoice_amount': 13765,
-    'project_expense': 4554,
-    'date': '03/25/2021',
-    'state': 'California',
-    'kind_of_project': 'Doors, Frames & Hardware'
-  }, {
-    'id': 40,
-    'client_name': 'Amata Tinghill',
-    'invoice_amount': 6669,
-    'project_expense': 8430,
-    'date': '12/24/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'RF Shielding'
-  }, {
-    'id': 41,
-    'client_name': 'Gerik Venart',
-    'invoice_amount': 6719,
-    'project_expense': 3771,
-    'date': '08/11/2021',
-    'state': 'California',
-    'kind_of_project': 'Construction Clean and Final Clean'
-  }, {
-    'id': 42,
-    'client_name': 'Worthy Eisold',
-    'invoice_amount': 10744,
-    'project_expense': 8066,
-    'date': '02/25/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Glass & Glazing'
-  }, {
-    'id': 43,
-    'client_name': 'Dominga Fleischmann',
-    'invoice_amount': 15661,
-    'project_expense': 10096,
-    'date': '03/12/2021',
-    'state': 'Nevada',
-    'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
-  }, {
-    'id': 44,
-    'client_name': 'Luce Prendergrass',
-    'invoice_amount': 9877,
-    'project_expense': 3090,
-    'date': '07/11/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Structural & Misc Steel Erection'
-  }, {
-    'id': 45,
-    'client_name': 'Alexander Cathrae',
-    'invoice_amount': 8815,
-    'project_expense': 5512,
-    'date': '10/20/2021',
-    'state': 'California',
-    'kind_of_project': 'Fire Protection'
-  }, {
-    'id': 46,
-    'client_name': 'Dulsea Francesco',
-    'invoice_amount': 10691,
-    'project_expense': 9480,
-    'date': '08/13/2021',
-    'state': 'California',
-    'kind_of_project': 'Granite Surfaces'
-  }, {
-    'id': 47,
-    'client_name': 'Cairistiona Croxford',
-    'invoice_amount': 10303,
-    'project_expense': 12522,
-    'date': '08/22/2021',
-    'state': 'California',
-    'kind_of_project': 'Fire Sprinkler System'
-  }, {
-    'id': 48,
-    'client_name': 'Isak Janczak',
-    'invoice_amount': 17391,
-    'project_expense': 6983,
-    'date': '10/28/2021',
-    'state': 'California',
-    'kind_of_project': 'Ornamental Railings'
-  }, {
-    'id': 49,
-    'client_name': 'Lesley Forte',
-    'invoice_amount': 19784,
-    'project_expense': 4947,
-    'date': '03/27/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Framing (Wood)'
-  }, {
-    'id': 50,
-    'client_name': 'Doralia Gauvain',
-    'invoice_amount': 19393,
-    'project_expense': 4229,
-    'date': '12/18/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Marlite Panels (FED)'
-  }, {
-    'id': 51,
-    'client_name': 'Will MacTrustie',
-    'invoice_amount': 6681,
-    'project_expense': 12566,
-    'date': '07/04/2021',
-    'state': 'California',
-    'kind_of_project': 'Landscaping & Irrigation'
-  }, {
-    'id': 52,
-    'client_name': 'Jamill Popping',
-    'invoice_amount': 10659,
-    'project_expense': 8031,
-    'date': '03/08/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Casework'
-  }, {
-    'id': 53,
-    'client_name': 'Rosaleen Hawkeswood',
-    'invoice_amount': 18447,
-    'project_expense': 10997,
-    'date': '02/22/2021',
-    'state': 'California',
-    'kind_of_project': 'Roofing (Metal)'
-  }, {
-    'id': 54,
-    'client_name': 'Alwin Plail',
-    'invoice_amount': 7891,
-    'project_expense': 10334,
-    'date': '05/25/2021',
-    'state': 'California',
-    'kind_of_project': 'Overhead Doors'
-  }, {
-    'id': 55,
-    'client_name': 'Karim Yerrill',
-    'invoice_amount': 12599,
-    'project_expense': 6356,
-    'date': '11/13/2021',
-    'state': 'Utah',
-    'kind_of_project': 'Retaining Wall and Brick Pavers'
-  }, {
-    'id': 56,
-    'client_name': 'Florance Skala',
-    'invoice_amount': 7788,
-    'project_expense': 11324,
-    'date': '08/24/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Casework'
-  }, {
-    'id': 57,
-    'client_name': 'Holly Draye',
-    'invoice_amount': 5202,
-    'project_expense': 14264,
-    'date': '07/05/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Drywall & Acoustical (MOB)'
-  }, {
-    'id': 58,
-    'client_name': 'Chastity Wilstead',
-    'invoice_amount': 16288,
-    'project_expense': 10730,
-    'date': '05/27/2021',
-    'state': 'Idaho',
-    'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
-  }, {
-    'id': 59,
-    'client_name': 'Lloyd Kestian',
-    'invoice_amount': 9985,
-    'project_expense': 12881,
-    'date': '02/14/2021',
-    'state': 'California',
-    'kind_of_project': 'Temp Fencing, Decorative Fencing and Gates'
-  }, {
-    'id': 60,
-    'client_name': 'Andonis Gaddesby',
-    'invoice_amount': 13193,
-    'project_expense': 4668,
-    'date': '04/19/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'HVAC'
-  }, {
-    'id': 61,
-    'client_name': 'Pinchas McGeorge',
-    'invoice_amount': 5932,
-    'project_expense': 9626,
-    'date': '07/22/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Elevator'
-  }, {
-    'id': 62,
-    'client_name': 'Carissa Laming',
-    'invoice_amount': 14992,
-    'project_expense': 4863,
-    'date': '12/27/2021',
-    'state': 'Oregon',
-    'kind_of_project': 'Wall Protection'
-  }, {
-    'id': 63,
-    'client_name': 'Iris Ofen',
-    'invoice_amount': 16143,
-    'project_expense': 5281,
-    'date': '09/10/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Masonry & Precast'
-  }, {
-    'id': 64,
-    'client_name': 'Nichole Snelson',
-    'invoice_amount': 17751,
-    'project_expense': 7570,
-    'date': '03/20/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
-  }, {
-    'id': 65,
-    'client_name': 'Micky Mc Caughan',
-    'invoice_amount': 6984,
-    'project_expense': 9545,
-    'date': '11/16/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Electrical and Fire Alarm'
-  }, {
-    'id': 66,
-    'client_name': 'Alicea Beazleigh',
-    'invoice_amount': 17541,
-    'project_expense': 13433,
-    'date': '02/21/2021',
-    'state': 'California',
-    'kind_of_project': 'Wall Protection'
-  }, {
-    'id': 67,
-    'client_name': 'Tymon Paver',
-    'invoice_amount': 8686,
-    'project_expense': 13044,
-    'date': '10/10/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Granite Surfaces'
-  }, {
-    'id': 68,
-    'client_name': 'Jenn Feldberger',
-    'invoice_amount': 19841,
-    'project_expense': 8819,
-    'date': '06/10/2021',
-    'state': 'California',
-    'kind_of_project': 'HVAC'
-  }, {
-    'id': 69,
-    'client_name': 'Mikey Abramow',
-    'invoice_amount': 5909,
-    'project_expense': 10223,
-    'date': '01/22/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Elevator'
-  }, {
-    'id': 70,
-    'client_name': 'Crosby Whiteley',
-    'invoice_amount': 18073,
-    'project_expense': 6032,
-    'date': '06/25/2021',
-    'state': 'California',
-    'kind_of_project': 'Glass & Glazing'
-  }, {
-    'id': 71,
-    'client_name': 'Jarib Gilkes',
-    'invoice_amount': 7447,
-    'project_expense': 12044,
-    'date': '08/28/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Doors, Frames & Hardware'
-  }, {
-    'id': 72,
-    'client_name': 'Jobina Theyer',
-    'invoice_amount': 7688,
-    'project_expense': 14434,
-    'date': '10/05/2021',
-    'state': 'California',
-    'kind_of_project': 'Glass & Glazing'
-  }, {
-    'id': 73,
-    'client_name': 'Inna Regenhardt',
-    'invoice_amount': 8079,
-    'project_expense': 9259,
-    'date': '06/17/2021',
-    'state': 'California',
-    'kind_of_project': 'Roofing (Metal)'
-  }, {
-    'id': 74,
-    'client_name': 'Addi Leggan',
-    'invoice_amount': 18746,
-    'project_expense': 5089,
-    'date': '09/18/2021',
-    'state': 'California',
-    'kind_of_project': 'HVAC'
-  }, {
-    'id': 75,
-    'client_name': 'Kit Kirimaa',
-    'invoice_amount': 12698,
-    'project_expense': 11692,
-    'date': '06/18/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Overhead Doors'
-  }, {
-    'id': 76,
-    'client_name': 'Mackenzie Penticoot',
-    'invoice_amount': 5344,
-    'project_expense': 10202,
-    'date': '07/16/2021',
-    'state': 'California',
-    'kind_of_project': 'Masonry'
-  }, {
-    'id': 77,
-    'client_name': 'Carlina Schulken',
-    'invoice_amount': 8602,
-    'project_expense': 4390,
-    'date': '02/14/2021',
-    'state': 'Idaho',
-    'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
-  }, {
-    'id': 78,
-    'client_name': 'Reeta Ayres',
-    'invoice_amount': 14801,
-    'project_expense': 7464,
-    'date': '04/03/2021',
-    'state': 'Nevada',
-    'kind_of_project': 'Construction Clean and Final Clean'
-  }, {
-    'id': 79,
-    'client_name': 'Jose Rooze',
-    'invoice_amount': 9365,
-    'project_expense': 4019,
-    'date': '10/04/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Structural & Misc Steel Erection'
-  }, {
-    'id': 80,
-    'client_name': 'Alfonse Sima',
-    'invoice_amount': 12964,
-    'project_expense': 5355,
-    'date': '07/12/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Termite Control'
-  }, {
-    'id': 81,
-    'client_name': 'Ronni Dinnington',
-    'invoice_amount': 14287,
-    'project_expense': 10758,
-    'date': '04/22/2021',
-    'state': 'California',
-    'kind_of_project': 'Soft Flooring and Base'
-  }, {
-    'id': 82,
-    'client_name': 'Freeland Shemilt',
-    'invoice_amount': 7295,
-    'project_expense': 12222,
-    'date': '01/03/2021',
-    'state': 'California',
-    'kind_of_project': 'Termite Control'
-  }, {
-    'id': 83,
-    'client_name': 'Engelbert Strooband',
-    'invoice_amount': 11974,
-    'project_expense': 4049,
-    'date': '06/04/2021',
-    'state': 'Oregon',
-    'kind_of_project': 'Roofing (Metal)'
-  }, {
-    'id': 84,
-    'client_name': 'Giraldo Scholes',
-    'invoice_amount': 5845,
-    'project_expense': 6612,
-    'date': '08/26/2021',
-    'state': 'California',
-    'kind_of_project': 'Electrical'
-  }, {
-    'id': 85,
-    'client_name': 'Galvan Cobbe',
-    'invoice_amount': 14982,
-    'project_expense': 4327,
-    'date': '12/13/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Termite Control'
-  }, {
-    'id': 86,
-    'client_name': 'Marcelo Farryn',
-    'invoice_amount': 18442,
-    'project_expense': 11474,
-    'date': '08/31/2021',
-    'state': 'California',
-    'kind_of_project': 'Elevator'
-  }, {
-    'id': 87,
-    'client_name': 'Netti Dorrian',
-    'invoice_amount': 18599,
-    'project_expense': 7018,
-    'date': '11/20/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Masonry & Precast'
-  }, {
-    'id': 88,
-    'client_name': 'Giacinta Archanbault',
-    'invoice_amount': 12156,
-    'project_expense': 5060,
-    'date': '02/16/2021',
-    'state': 'California',
-    'kind_of_project': 'Casework'
-  }, {
-    'id': 89,
-    'client_name': 'Harrietta Sergean',
-    'invoice_amount': 13483,
-    'project_expense': 6853,
-    'date': '01/10/2021',
-    'state': 'California',
-    'kind_of_project': 'Electrical'
-  }, {
-    'id': 90,
-    'client_name': 'Evelyn Cardnell',
-    'invoice_amount': 17473,
-    'project_expense': 9606,
-    'date': '09/18/2021',
-    'state': 'California',
-    'kind_of_project': 'Retaining Wall and Brick Pavers'
-  }, {
-    'id': 91,
-    'client_name': 'Tisha Burnall',
-    'invoice_amount': 6111,
-    'project_expense': 14933,
-    'date': '08/30/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Framing (Steel)'
-  }, {
-    'id': 92,
-    'client_name': 'Filberto Rudeforth',
-    'invoice_amount': 6023,
-    'project_expense': 6600,
-    'date': '01/23/2021',
-    'state': 'Washington',
-    'kind_of_project': 'Framing (Wood)'
-  }, {
-    'id': 93,
-    'client_name': 'Betsey Farran',
-    'invoice_amount': 9071,
-    'project_expense': 8672,
-    'date': '04/28/2021',
-    'state': 'California',
-    'kind_of_project': 'Landscaping & Irrigation'
-  }, {
-    'id': 94,
-    'client_name': 'Jany Darley',
-    'invoice_amount': 14507,
-    'project_expense': 3831,
-    'date': '03/27/2021',
-    'state': 'Utah',
-    'kind_of_project': 'Exterior Signage'
-  }, {
-    'id': 95,
-    'client_name': 'Xever Boylan',
-    'invoice_amount': 19570,
-    'project_expense': 11386,
-    'date': '06/05/2021',
-    'state': 'Arizona',
-    'kind_of_project': 'Retaining Wall and Brick Pavers'
-  }, {
-    'id': 96,
-    'client_name': 'Onofredo Lates',
-    'invoice_amount': 18410,
-    'project_expense': 13305,
-    'date': '10/22/2021',
-    'state': 'California',
-    'kind_of_project': 'Construction Clean and Final Clean'
-  }, {
-    'id': 97,
-    'client_name': 'Burr Valde',
-    'invoice_amount': 13863,
-    'project_expense': 12229,
-    'date': '02/14/2021',
-    'state': 'California',
-    'kind_of_project': 'Rebar & Wire Mesh Install'
-  }, {
-    'id': 98,
-    'client_name': 'Ivette Sanpere',
-    'invoice_amount': 17270,
-    'project_expense': 9510,
-    'date': '01/01/2021',
-    'state': 'California',
-    'kind_of_project': 'Termite Control'
-  }, {
-    'id': 99,
-    'client_name': 'Paxon Beer',
-    'invoice_amount': 12607,
-    'project_expense': 6898,
-    'date': '07/20/2021',
-    'state': 'California',
-    'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
-  }, {
-    'id': 100,
-    'client_name': 'Ailis McCole',
-    'invoice_amount': 6858,
-    'project_expense': 8547,
-    'date': '10/31/2021',
-    'state': 'Nevada',
-    'kind_of_project': 'Landscaping & Irrigation'
-  }
-];
+export default [{
+  'id': 1,
+  'client_name': 'Gardiner Maidstone',
+  'age': 60,
+  'invoice_amount': 17964,
+  'project_expense': 3042,
+  'date': '10/18/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 2,
+  'client_name': 'Hobard Griggs',
+  'age': 92,
+  'invoice_amount': 11411,
+  'project_expense': 6958,
+  'date': '03/12/2021',
+  'state': 'California',
+  'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
+}, {
+  'id': 3,
+  'client_name': 'Vachel Halfhide',
+  'age': 85,
+  'invoice_amount': 14752,
+  'project_expense': 9768,
+  'date': '03/31/2021',
+  'state': 'California',
+  'kind_of_project': 'Granite Surfaces'
+}, {
+  'id': 4,
+  'client_name': 'Kristofor Venney',
+  'age': 24,
+  'invoice_amount': 12114,
+  'project_expense': 6222,
+  'date': '06/04/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Soft Flooring and Base'
+}, {
+  'id': 5,
+  'client_name': 'Holden Canfer',
+  'age': 41,
+  'invoice_amount': 14720,
+  'project_expense': 7275,
+  'date': '09/12/2021',
+  'state': 'California',
+  'kind_of_project': 'Site Furnishings'
+}, {
+  'id': 6,
+  'client_name': 'Keely Caffery',
+  'age': 73,
+  'invoice_amount': 13273,
+  'project_expense': 3904,
+  'date': '11/18/2021',
+  'state': 'California',
+  'kind_of_project': 'Epoxy Flooring'
+}, {
+  'id': 7,
+  'client_name': 'Tine Brandoni',
+  'age': 53,
+  'invoice_amount': 11278,
+  'project_expense': 4857,
+  'date': '11/09/2021',
+  'state': 'California',
+  'kind_of_project': 'Drilled Shafts'
+}, {
+  'id': 8,
+  'client_name': 'Roxane Markova',
+  'age': 69,
+  'invoice_amount': 11833,
+  'project_expense': 4313,
+  'date': '04/07/2021',
+  'state': 'California',
+  'kind_of_project': 'Construction Clean and Final Clean'
+}, {
+  'id': 9,
+  'client_name': 'Remy Foldes',
+  'age': 28,
+  'invoice_amount': 16056,
+  'project_expense': 9017,
+  'date': '06/27/2021',
+  'state': 'California',
+  'kind_of_project': 'Fire Sprinkler System'
+}, {
+  'id': 10,
+  'client_name': 'Valenka Fleckno',
+  'age': 95,
+  'invoice_amount': 15371,
+  'project_expense': 3697,
+  'date': '04/30/2021',
+  'state': 'California',
+  'kind_of_project': 'Framing (Steel)'
+}, {
+  'id': 11,
+  'client_name': 'Agna Steeples',
+  'age': 83,
+  'invoice_amount': 18241,
+  'project_expense': 2761,
+  'date': '07/03/2021',
+  'state': 'California',
+  'kind_of_project': 'Fire Protection'
+}, {
+  'id': 12,
+  'client_name': 'Aurore Congreave',
+  'age': 32,
+  'invoice_amount': 9390,
+  'project_expense': 3783,
+  'date': '10/29/2021',
+  'state': 'California',
+  'kind_of_project': 'Framing (Wood)'
+}, {
+  'id': 13,
+  'client_name': 'Dallon Bibey',
+  'age': 77,
+  'invoice_amount': 10834,
+  'project_expense': 9688,
+  'date': '10/31/2021',
+  'state': 'Oregon',
+  'kind_of_project': 'Granite Surfaces'
+}, {
+  'id': 14,
+  'client_name': 'Hulda Harriot',
+  'age': 45,
+  'invoice_amount': 16521,
+  'project_expense': 8604,
+  'date': '02/16/2021',
+  'state': 'California',
+  'kind_of_project': 'Doors, Frames & Hardware'
+}, {
+  'id': 15,
+  'client_name': 'Rosabella Forcade',
+  'age': 88,
+  'invoice_amount': 17234,
+  'project_expense': 8542,
+  'date': '07/18/2021',
+  'state': 'California',
+  'kind_of_project': 'Doors, Frames & Hardware'
+}, {
+  'id': 16,
+  'client_name': 'Drusi Origin',
+  'age': 24,
+  'invoice_amount': 11545,
+  'project_expense': 5646,
+  'date': '11/18/2021',
+  'state': 'Oregon',
+  'kind_of_project': 'Overhead Doors'
+}, {
+  'id': 17,
+  'client_name': 'Glenn Hearsey',
+  'age': 94,
+  'invoice_amount': 14924,
+  'project_expense': 7122,
+  'date': '03/19/2021',
+  'state': 'California',
+  'kind_of_project': 'Fire Sprinkler System'
+}, {
+  'id': 18,
+  'client_name': 'Cherilyn Kienle',
+  'age': 55,
+  'invoice_amount': 16539,
+  'project_expense': 7384,
+  'date': '07/06/2021',
+  'state': 'California',
+  'kind_of_project': 'Soft Flooring and Base'
+}, {
+  'id': 19,
+  'client_name': 'Tersina Issit',
+  'age': 91,
+  'invoice_amount': 10689,
+  'project_expense': 6350,
+  'date': '10/27/2021',
+  'state': 'California',
+  'kind_of_project': 'Plumbing & Medical Gas'
+}, {
+  'id': 20,
+  'client_name': 'Mandi Cogdell',
+  'age': 62,
+  'invoice_amount': 8886,
+  'project_expense': 9533,
+  'date': '01/18/2021',
+  'state': 'California',
+  'kind_of_project': 'Drywall & Acoustical (FED)'
+}, {
+  'id': 21,
+  'client_name': 'Doe Todd',
+  'age': 19,
+  'invoice_amount': 19769,
+  'project_expense': 5232,
+  'date': '12/04/2021',
+  'state': 'California',
+  'kind_of_project': 'Structural & Misc Steel Erection'
+}, {
+  'id': 22,
+  'client_name': 'Briano Brownsword',
+  'age': 68,
+  'invoice_amount': 13130,
+  'project_expense': 6431,
+  'date': '07/22/2021',
+  'state': 'California',
+  'kind_of_project': 'Landscaping & Irrigation'
+}, {
+  'id': 23,
+  'client_name': 'Clara Giametti',
+  'age': 97,
+  'invoice_amount': 18513,
+  'project_expense': 5008,
+  'date': '04/16/2021',
+  'state': 'California',
+  'kind_of_project': 'Epoxy Flooring'
+}, {
+  'id': 24,
+  'client_name': 'Adore Ingree',
+  'age': 33,
+  'invoice_amount': 12987,
+  'project_expense': 3678,
+  'date': '07/13/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Termite Control'
+}, {
+  'id': 25,
+  'client_name': 'Crosby Gonnard',
+  'age': 89,
+  'invoice_amount': 8662,
+  'project_expense': 2796,
+  'date': '05/05/2021',
+  'state': 'California',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 26,
+  'client_name': 'Freddie Jaffa',
+  'age': 97,
+  'invoice_amount': 12093,
+  'project_expense': 4484,
+  'date': '09/28/2021',
+  'state': 'California',
+  'kind_of_project': 'Wall Protection'
+}, {
+  'id': 27,
+  'client_name': 'Lindon Avrashin',
+  'age': 29,
+  'invoice_amount': 13013,
+  'project_expense': 6192,
+  'date': '07/27/2021',
+  'state': 'California',
+  'kind_of_project': 'Drywall & Acoustical (FED)'
+}, {
+  'id': 28,
+  'client_name': 'Prudence Ferrao',
+  'age': 90,
+  'invoice_amount': 8605,
+  'project_expense': 7642,
+  'date': '03/26/2021',
+  'state': 'California',
+  'kind_of_project': 'Drilled Shafts'
+}, {
+  'id': 29,
+  'client_name': 'Lloyd Sayes',
+  'age': 23,
+  'invoice_amount': 13263,
+  'project_expense': 8387,
+  'date': '09/03/2021',
+  'state': 'California',
+  'kind_of_project': 'Drywall & Acoustical (MOB)'
+}, {
+  'id': 30,
+  'client_name': 'Tades Neeson',
+  'age': 94,
+  'invoice_amount': 17586,
+  'project_expense': 5299,
+  'date': '05/10/2021',
+  'state': 'Washington',
+  'kind_of_project': 'RF Shielding'
+}, {
+  'id': 31,
+  'client_name': 'Charin Braizier',
+  'age': 39,
+  'invoice_amount': 10585,
+  'project_expense': 4500,
+  'date': '06/13/2021',
+  'state': 'California',
+  'kind_of_project': 'Masonry & Precast'
+}, {
+  'id': 32,
+  'client_name': 'Kip Boatright',
+  'age': 70,
+  'invoice_amount': 12321,
+  'project_expense': 3314,
+  'date': '03/02/2021',
+  'state': 'California',
+  'kind_of_project': 'Waterproofing & Caulking'
+}, {
+  'id': 33,
+  'client_name': 'Tobe Sperrett',
+  'age': 27,
+  'invoice_amount': 8657,
+  'project_expense': 3247,
+  'date': '02/20/2021',
+  'state': 'California',
+  'kind_of_project': 'Granite Surfaces'
+}, {
+  'id': 34,
+  'client_name': 'Dee dee Boardman',
+  'age': 59,
+  'invoice_amount': 13878,
+  'project_expense': 6870,
+  'date': '06/15/2021',
+  'state': 'California',
+  'kind_of_project': 'Electrical and Fire Alarm'
+}, {
+  'id': 35,
+  'client_name': 'Kirsten Le Grand',
+  'age': 46,
+  'invoice_amount': 12821,
+  'project_expense': 2549,
+  'date': '08/27/2021',
+  'state': 'California',
+  'kind_of_project': 'Electrical'
+}, {
+  'id': 36,
+  'client_name': 'Duncan Wilcocke',
+  'age': 29,
+  'invoice_amount': 19090,
+  'project_expense': 3163,
+  'date': '07/23/2021',
+  'state': 'Washington',
+  'kind_of_project': 'EIFS'
+}, {
+  'id': 37,
+  'client_name': 'Earvin Borton',
+  'age': 28,
+  'invoice_amount': 8255,
+  'project_expense': 8802,
+  'date': '02/19/2021',
+  'state': 'California',
+  'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
+}, {
+  'id': 38,
+  'client_name': 'Russell Tayspell',
+  'age': 91,
+  'invoice_amount': 11082,
+  'project_expense': 4914,
+  'date': '08/08/2021',
+  'state': 'California',
+  'kind_of_project': 'Landscaping & Irrigation'
+}, {
+  'id': 39,
+  'client_name': 'Gladys Skedge',
+  'age': 20,
+  'invoice_amount': 14642,
+  'project_expense': 4927,
+  'date': '09/25/2021',
+  'state': 'California',
+  'kind_of_project': 'Electrical'
+}, {
+  'id': 40,
+  'client_name': 'Gene Frostdicke',
+  'age': 46,
+  'invoice_amount': 14875,
+  'project_expense': 8507,
+  'date': '03/23/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
+}, {
+  'id': 41,
+  'client_name': 'Dexter Besson',
+  'age': 29,
+  'invoice_amount': 11515,
+  'project_expense': 2843,
+  'date': '06/24/2021',
+  'state': 'California',
+  'kind_of_project': 'Site Furnishings'
+}, {
+  'id': 42,
+  'client_name': 'Donal Tibalt',
+  'age': 98,
+  'invoice_amount': 12393,
+  'project_expense': 9337,
+  'date': '10/12/2021',
+  'state': 'California',
+  'kind_of_project': 'Casework'
+}, {
+  'id': 43,
+  'client_name': 'Hernando Edmonson',
+  'age': 31,
+  'invoice_amount': 15754,
+  'project_expense': 6125,
+  'date': '06/11/2021',
+  'state': 'Idaho',
+  'kind_of_project': 'Casework'
+}, {
+  'id': 44,
+  'client_name': 'Candace Polsin',
+  'age': 67,
+  'invoice_amount': 11024,
+  'project_expense': 7542,
+  'date': '01/01/2021',
+  'state': 'California',
+  'kind_of_project': 'Sitework & Site Utilities'
+}, {
+  'id': 45,
+  'client_name': 'Elbertine Jansens',
+  'age': 78,
+  'invoice_amount': 11333,
+  'project_expense': 2757,
+  'date': '10/22/2021',
+  'state': 'Alaska',
+  'kind_of_project': 'Termite Control'
+}, {
+  'id': 46,
+  'client_name': 'Gareth Menat',
+  'age': 52,
+  'invoice_amount': 10270,
+  'project_expense': 9185,
+  'date': '01/14/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Structural & Misc Steel Erection'
+}, {
+  'id': 47,
+  'client_name': 'Denyse Kuzma',
+  'age': 38,
+  'invoice_amount': 10928,
+  'project_expense': 8701,
+  'date': '07/05/2021',
+  'state': 'Idaho',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 48,
+  'client_name': 'Kean Checcuzzi',
+  'age': 49,
+  'invoice_amount': 11097,
+  'project_expense': 4841,
+  'date': '10/30/2021',
+  'state': 'Oregon',
+  'kind_of_project': 'EIFS'
+}, {
+  'id': 49,
+  'client_name': 'Happy Mahy',
+  'age': 69,
+  'invoice_amount': 8528,
+  'project_expense': 3194,
+  'date': '11/09/2021',
+  'state': 'California',
+  'kind_of_project': 'Drywall & Acoustical (MOB)'
+}, {
+  'id': 50,
+  'client_name': 'Gawen Bissell',
+  'age': 71,
+  'invoice_amount': 16533,
+  'project_expense': 5776,
+  'date': '10/07/2021',
+  'state': 'California',
+  'kind_of_project': 'Painting & Vinyl Wall Covering'
+}, {
+  'id': 51,
+  'client_name': 'Tatiana Cumber',
+  'age': 21,
+  'invoice_amount': 17563,
+  'project_expense': 7741,
+  'date': '11/23/2021',
+  'state': 'California',
+  'kind_of_project': 'Casework'
+}, {
+  'id': 52,
+  'client_name': 'Greta Peegrem',
+  'age': 85,
+  'invoice_amount': 11095,
+  'project_expense': 7893,
+  'date': '07/19/2021',
+  'state': 'California',
+  'kind_of_project': 'Roofing (Asphalt)'
+}, {
+  'id': 53,
+  'client_name': 'Serena Manketell',
+  'age': 78,
+  'invoice_amount': 13577,
+  'project_expense': 7457,
+  'date': '02/15/2021',
+  'state': 'California',
+  'kind_of_project': 'Rebar & Wire Mesh Install'
+}, {
+  'id': 54,
+  'client_name': 'Mikey McKeighan',
+  'age': 38,
+  'invoice_amount': 15084,
+  'project_expense': 8507,
+  'date': '11/16/2021',
+  'state': 'California',
+  'kind_of_project': 'Waterproofing & Caulking'
+}, {
+  'id': 55,
+  'client_name': 'Giordano Cahey',
+  'age': 36,
+  'invoice_amount': 18103,
+  'project_expense': 3703,
+  'date': '05/27/2021',
+  'state': 'California',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 56,
+  'client_name': 'Carlene Canepe',
+  'age': 80,
+  'invoice_amount': 10212,
+  'project_expense': 8940,
+  'date': '02/12/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 57,
+  'client_name': 'Kellsie Fillimore',
+  'age': 34,
+  'invoice_amount': 8223,
+  'project_expense': 6298,
+  'date': '12/26/2021',
+  'state': 'California',
+  'kind_of_project': 'Site Furnishings'
+}, {
+  'id': 58,
+  'client_name': 'Ofilia Ewings',
+  'age': 25,
+  'invoice_amount': 17422,
+  'project_expense': 4837,
+  'date': '06/07/2021',
+  'state': 'California',
+  'kind_of_project': 'Retaining Wall and Brick Pavers'
+}, {
+  'id': 59,
+  'client_name': 'Kaycee Reardon',
+  'age': 23,
+  'invoice_amount': 17740,
+  'project_expense': 7301,
+  'date': '03/31/2021',
+  'state': 'California',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 60,
+  'client_name': 'Charissa Jesper',
+  'age': 81,
+  'invoice_amount': 9979,
+  'project_expense': 3775,
+  'date': '06/25/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Exterior Signage'
+}, {
+  'id': 61,
+  'client_name': 'Zena Lockett',
+  'age': 89,
+  'invoice_amount': 14843,
+  'project_expense': 3730,
+  'date': '02/11/2021',
+  'state': 'California',
+  'kind_of_project': 'Soft Flooring and Base'
+}, {
+  'id': 62,
+  'client_name': 'Averil Rubel',
+  'age': 66,
+  'invoice_amount': 19270,
+  'project_expense': 6042,
+  'date': '11/29/2021',
+  'state': 'California',
+  'kind_of_project': 'Fire Sprinkler System'
+}, {
+  'id': 63,
+  'client_name': 'Gaylene Linck',
+  'age': 20,
+  'invoice_amount': 15815,
+  'project_expense': 4693,
+  'date': '05/09/2021',
+  'state': 'California',
+  'kind_of_project': 'Casework'
+}, {
+  'id': 64,
+  'client_name': 'Hoebart Johnikin',
+  'age': 49,
+  'invoice_amount': 14340,
+  'project_expense': 5519,
+  'date': '07/24/2021',
+  'state': 'California',
+  'kind_of_project': 'Casework'
+}, {
+  'id': 65,
+  'client_name': 'Trumaine Everist',
+  'age': 44,
+  'invoice_amount': 9111,
+  'project_expense': 8616,
+  'date': '02/26/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Casework'
+}, {
+  'id': 66,
+  'client_name': 'Dacey Looker',
+  'age': 85,
+  'invoice_amount': 9230,
+  'project_expense': 7220,
+  'date': '05/21/2021',
+  'state': 'California',
+  'kind_of_project': 'Masonry'
+}, {
+  'id': 67,
+  'client_name': 'Pandora Atwel',
+  'age': 57,
+  'invoice_amount': 18434,
+  'project_expense': 2902,
+  'date': '07/02/2021',
+  'state': 'California',
+  'kind_of_project': 'Ornamental Railings'
+}, {
+  'id': 68,
+  'client_name': 'Mattie Clineck',
+  'age': 29,
+  'invoice_amount': 14865,
+  'project_expense': 5235,
+  'date': '04/12/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Roofing (Asphalt)'
+}, {
+  'id': 69,
+  'client_name': 'Preston Whardley',
+  'age': 86,
+  'invoice_amount': 17240,
+  'project_expense': 6695,
+  'date': '02/25/2021',
+  'state': 'California',
+  'kind_of_project': 'Fire Sprinkler System'
+}, {
+  'id': 70,
+  'client_name': 'Kennett Barnwille',
+  'age': 74,
+  'invoice_amount': 9167,
+  'project_expense': 7651,
+  'date': '02/09/2021',
+  'state': 'California',
+  'kind_of_project': 'Temp Fencing, Decorative Fencing and Gates'
+}, {
+  'id': 71,
+  'client_name': 'Biddie Balassa',
+  'age': 64,
+  'invoice_amount': 15044,
+  'project_expense': 6620,
+  'date': '02/02/2021',
+  'state': 'California',
+  'kind_of_project': 'Casework'
+}, {
+  'id': 72,
+  'client_name': 'Kaine Frayne',
+  'age': 41,
+  'invoice_amount': 8155,
+  'project_expense': 3866,
+  'date': '07/30/2021',
+  'state': 'Idaho',
+  'kind_of_project': 'Electrical'
+}, {
+  'id': 73,
+  'client_name': 'Shaine Keys',
+  'age': 98,
+  'invoice_amount': 11594,
+  'project_expense': 7355,
+  'date': '02/01/2021',
+  'state': 'California',
+  'kind_of_project': 'Overhead Doors'
+}, {
+  'id': 74,
+  'client_name': 'Claude Duny',
+  'age': 31,
+  'invoice_amount': 19037,
+  'project_expense': 6082,
+  'date': '04/26/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Waterproofing & Caulking'
+}, {
+  'id': 75,
+  'client_name': 'Ricky Fewless',
+  'age': 87,
+  'invoice_amount': 15171,
+  'project_expense': 4050,
+  'date': '10/14/2021',
+  'state': 'California',
+  'kind_of_project': 'Site Furnishings'
+}, {
+  'id': 76,
+  'client_name': 'Simonette Hackforth',
+  'age': 59,
+  'invoice_amount': 11550,
+  'project_expense': 2613,
+  'date': '05/31/2021',
+  'state': 'California',
+  'kind_of_project': 'EIFS'
+}, {
+  'id': 77,
+  'client_name': 'Blancha Ickovicz',
+  'age': 85,
+  'invoice_amount': 14816,
+  'project_expense': 4155,
+  'date': '03/16/2021',
+  'state': 'California',
+  'kind_of_project': 'Fire Sprinkler System'
+}, {
+  'id': 78,
+  'client_name': 'Adriena Raubenheimers',
+  'age': 42,
+  'invoice_amount': 10500,
+  'project_expense': 6235,
+  'date': '05/19/2021',
+  'state': 'California',
+  'kind_of_project': 'Drilled Shafts'
+}, {
+  'id': 79,
+  'client_name': 'Maure Clifft',
+  'age': 59,
+  'invoice_amount': 14173,
+  'project_expense': 5217,
+  'date': '12/07/2021',
+  'state': 'California',
+  'kind_of_project': 'Construction Clean and Final Clean'
+}, {
+  'id': 80,
+  'client_name': 'Westleigh Rivitt',
+  'age': 25,
+  'invoice_amount': 17017,
+  'project_expense': 4603,
+  'date': '02/14/2021',
+  'state': 'California',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 81,
+  'client_name': 'Arny Andrusov',
+  'age': 55,
+  'invoice_amount': 15210,
+  'project_expense': 4028,
+  'date': '02/02/2021',
+  'state': 'California',
+  'kind_of_project': 'Soft Flooring and Base'
+}, {
+  'id': 82,
+  'client_name': 'Ardys Mannion',
+  'age': 30,
+  'invoice_amount': 14713,
+  'project_expense': 8620,
+  'date': '08/08/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Soft Flooring and Base'
+}, {
+  'id': 83,
+  'client_name': 'Urban Penke',
+  'age': 73,
+  'invoice_amount': 8255,
+  'project_expense': 7644,
+  'date': '07/27/2021',
+  'state': 'California',
+  'kind_of_project': 'Waterproofing & Caulking'
+}, {
+  'id': 84,
+  'client_name': 'Margret Renish',
+  'age': 49,
+  'invoice_amount': 17579,
+  'project_expense': 5587,
+  'date': '04/29/2021',
+  'state': 'California',
+  'kind_of_project': 'Doors, Frames & Hardware'
+}, {
+  'id': 85,
+  'client_name': 'Bentley Wall',
+  'age': 21,
+  'invoice_amount': 10985,
+  'project_expense': 3728,
+  'date': '07/25/2021',
+  'state': 'California',
+  'kind_of_project': 'Landscaping & Irrigation'
+}, {
+  'id': 86,
+  'client_name': 'Ivor Aveline',
+  'age': 47,
+  'invoice_amount': 19330,
+  'project_expense': 6937,
+  'date': '01/06/2021',
+  'state': 'California',
+  'kind_of_project': 'Plumbing & Medical Gas'
+}, {
+  'id': 87,
+  'client_name': 'Barnebas Silley',
+  'age': 65,
+  'invoice_amount': 12181,
+  'project_expense': 8273,
+  'date': '12/24/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Retaining Wall and Brick Pavers'
+}, {
+  'id': 88,
+  'client_name': 'Gaylor Beekmann',
+  'age': 63,
+  'invoice_amount': 10519,
+  'project_expense': 9372,
+  'date': '05/23/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Framing (Steel)'
+}, {
+  'id': 89,
+  'client_name': 'Banky Merington',
+  'age': 43,
+  'invoice_amount': 19265,
+  'project_expense': 4828,
+  'date': '03/10/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Prefabricated Aluminum Metal Canopies'
+}, {
+  'id': 90,
+  'client_name': 'Dagny Lauret',
+  'age': 20,
+  'invoice_amount': 10598,
+  'project_expense': 9505,
+  'date': '01/05/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Site Furnishings'
+}, {
+  'id': 91,
+  'client_name': 'Meade Binfield',
+  'age': 37,
+  'invoice_amount': 14027,
+  'project_expense': 3629,
+  'date': '11/16/2021',
+  'state': 'California',
+  'kind_of_project': 'Framing (Steel)'
+}, {
+  'id': 92,
+  'client_name': 'Wallie Gwillym',
+  'age': 83,
+  'invoice_amount': 13662,
+  'project_expense': 9745,
+  'date': '08/12/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Electrical and Fire Alarm'
+}, {
+  'id': 93,
+  'client_name': 'Miguelita Bencher',
+  'age': 95,
+  'invoice_amount': 18732,
+  'project_expense': 5937,
+  'date': '06/06/2021',
+  'state': 'California',
+  'kind_of_project': 'Structural & Misc Steel Erection'
+}, {
+  'id': 94,
+  'client_name': 'Oliver Kynder',
+  'age': 40,
+  'invoice_amount': 18516,
+  'project_expense': 8228,
+  'date': '01/17/2021',
+  'state': 'California',
+  'kind_of_project': 'RF Shielding'
+}, {
+  'id': 95,
+  'client_name': 'Dael Laydon',
+  'age': 90,
+  'invoice_amount': 18090,
+  'project_expense': 3425,
+  'date': '06/27/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Construction Clean and Final Clean'
+}, {
+  'id': 96,
+  'client_name': 'Robbert Misselbrook',
+  'age': 99,
+  'invoice_amount': 16996,
+  'project_expense': 6945,
+  'date': '06/02/2021',
+  'state': 'California',
+  'kind_of_project': 'Granite Surfaces'
+}, {
+  'id': 97,
+  'client_name': 'Moyra Halston',
+  'age': 24,
+  'invoice_amount': 16986,
+  'project_expense': 9892,
+  'date': '09/29/2021',
+  'state': 'Alaska',
+  'kind_of_project': 'Masonry & Precast'
+}, {
+  'id': 98,
+  'client_name': 'Daisey Macourek',
+  'age': 93,
+  'invoice_amount': 9854,
+  'project_expense': 3148,
+  'date': '04/25/2021',
+  'state': 'California',
+  'kind_of_project': 'Hard Tile & Stone'
+}, {
+  'id': 99,
+  'client_name': 'Leoine Sterricker',
+  'age': 82,
+  'invoice_amount': 8673,
+  'project_expense': 4833,
+  'date': '08/03/2021',
+  'state': 'Idaho',
+  'kind_of_project': 'Structural and Misc Steel (Fabrication)'
+}, {
+  'id': 100,
+  'client_name': 'Minnnie Durtnell',
+  'age': 80,
+  'invoice_amount': 18742,
+  'project_expense': 6472,
+  'date': '12/09/2021',
+  'state': 'Washington',
+  'kind_of_project': 'Drywall & Acoustical (MOB)'
+}];

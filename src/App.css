@@ -43,3 +43,9 @@
 .data-grid {
   /* max-width: 900px; */
 }
+
+.chart {
+  margin: 20px;
+  padding: 20px;
+  /* width: 500px; */
+}

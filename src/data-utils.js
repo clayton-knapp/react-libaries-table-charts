@@ -85,3 +85,51 @@ export function totalInvoicesByProjectType(dataArr) {
 
   return data;
 }
+
+
+export function totalInvoicesPerMonth(data) {
+  const thing = data.reduce((acc, customer) => {
+    const monthCode = customer.date.substr(0, 2);
+    const monthMap = {
+      '01': 'Jan',
+      '02': 'Feb',
+      '03': 'Mar',
+      '04': 'Apr',
+      '05': 'May',
+      '06': 'Jun',
+      '07': 'Jul',
+      '08': 'Aug',
+      '09': 'Sep',
+      '10': 'Oct',
+      '11': 'Nov',
+      '12': 'Dec',
+    };
+    const month = monthMap[monthCode];
+    if (acc[month]) {
+      acc[month] = acc[month] + customer.invoice_amount;
+    }
+    else {
+      acc[month] = customer.invoice_amount;
+    }
+    return acc;
+  }, []);
+
+  const newThing = Object.entries(thing).map(entry => 
+    // return {
+    ({ 'x': entry[0], 'y': entry[1] })
+    // };
+  );
+
+  
+  return newThing;
+
+
+  //what do i need it to look like?
+  // data={[
+  //   { month: 1, total_invoices: 2 },
+  //   { x: 2, y: 3 },
+  //   { x: 3, y: 5 },
+  //   { x: 4, y: 4 },
+  //   { x: 5, y: 7 }
+  // ]}
+}
